@@ -1,6 +1,6 @@
 ## Distance Vector Routing with SQL
 
-Author: Alexej Onken   
+Author: Alexej Onken    
 
 Institution: Currently enrolled student at the University of Tuebingen as of March 19th, 2023
 
@@ -9,17 +9,17 @@ Program: Computer Science Master's degree
 Course: SQL is a Programming Language
 
 
-This repository includes the SQL code and relevant files, along with a PDF article on Distance-Vector Routing with SQL.
+This repository includes the SQL code and relevant files, along with a PDF article and presentation on Distance-Vector Routing with SQL.
 
-## Abstract
+## Problem overview
 
-*Recursive queries are useful for working with data that is organized in a hierarchical or tree-like manner*, as similarly promoted by the official PostgreSQL documentation. In this article, we explore the solution of Distance-Vector Routing using SQL and compare it with the established method, which employs the Bellman-Ford algorithm. The Distance-Vector algorithm aims to calculate the shortest path from each node to every other node by having each router use its routing table to communicate exclusively with its immediate neighbours. We study the solution of the Distance-Vector problem using a recursive CTE (Common Table Expression) that filters exploding path discoveries through appropriate upper bounds and cycle detections to avoid exponential run times in certain cases. This approach is scrutinized in comparison with the established method that performs periodic updates in routing tables. Here, the implementation of the recursive CTE and the accompanying SQL script are explained in detail. We then investigate whether using recursive CTE with SQL can be practically useful in solving the Distance-Vector Routing problem.
+*Recursive queries are useful for working with data that is organized in a hierarchical or tree-like manner*, as similarly promoted by the official PostgreSQL documentation. In this article and repo, we explore the solution of Distance-Vector Routing using SQL and compare it with the established method, which employs the Bellman-Ford algorithm. The Distance-Vector algorithm aims to calculate the shortest path from each node to every other node by having each router use its routing table to communicate exclusively with its immediate neighbours. We study the solution of the Distance-Vector problem using a PostgreSQL recursive CTE (Common Table Expression) that filters exploding path discoveries through appropriate upper bounds and cycle detections to avoid exponential run times in certain cases. This approach is scrutinized in comparison with the established method that performs periodic updates in routing tables. Here, the implementation of the recursive CTE and the accompanying SQL script are explained in detail. We then investigate whether using recursive CTE with SQL can be practically useful in solving the Distance-Vector Routing problem.
 
 ## Repository Contents
 
 - `graph_1.sql`: The PostgreSQL script implementing the recursive CTE solution for Distance Vector Routing for a sample graph with 5 nodes.
 - `graph_2.sql`: The PostgreSQL script implementing the recursive CTE solution for Distance Vector Routing for a sample graph with 4 nodes.
-- 'Distance_Vector_Routing_with_SQL.pdf': University Presentation on Distance-Vector Routing with SQL.
+- 'Distance_Vector_Routing_with_SQL.pdf': Seminar presentation on Distance-Vector Routing with SQL.
 -  'seminar_paper_distance_vector_routing_with_sql.pdf': Article on the topic of Distance-Vector Routing with SQL.
 
 ## Usage
@@ -41,4 +41,4 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 ## Questions and Feedback
 
-If you have any questions or feedback, please feel free to maronken@arcor.de
+If you have any questions or feedback, please feel free to maronken@arcor.de or alexej.onken@student.uni-tuebingen.de
