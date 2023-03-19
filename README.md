@@ -2,7 +2,7 @@
 
 Author: Alexej Onken   
 
-Institution: Enrolled student at the University of Tuebingen  
+Institution: Currently enrolled student at the University of Tuebingen as of March 19th, 2023
 
 Program: Computer Science Master's degree    
 
