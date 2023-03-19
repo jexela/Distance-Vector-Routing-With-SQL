@@ -9,7 +9,7 @@ Program: Computer Science Master's degree
 Course: SQL is a Programming Language
 
 
-This repository contains the SQL code and related files for my article on Distance-Vector Routing with SQL.
+This repository includes the SQL code and relevant files, along with a PDF article on Distance-Vector Routing with SQL.
 
 ## Abstract
 
@@ -29,6 +29,7 @@ To use the SQL script, follow these steps:
 1. Visit the PostgreSQL downloads page https://www.postgresql.org/download/ and select the appropriate version for your operating system.
 2. Import the `graph_1.sql` or `graph_2.sql` file into your PostgreSQL database.
 3. Run the scripts in your PostgreSQL environment.
+4. Alternatively, create your own input graph by following the conventions used in the article or SQL files and run the algorithm.
 
 ## Article Link
 
