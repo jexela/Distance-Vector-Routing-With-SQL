@@ -1,9 +1,12 @@
 ## Distance Vector Routing with SQL
 
--Author: Alexej Onken
--University: University of Tuebingen
--Program: Computer Science Master's degree
--Course: SQL is a Programming Language
+Author: Alexej Onken   
+
+University: University of Tuebingen    
+
+Program: Computer Science Master's degree    
+
+Course: SQL is a Programming Language
 
 
 This repository contains the SQL code and related files for my article on Distance Vector Routing with SQL.
