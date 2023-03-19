@@ -20,7 +20,7 @@ This repository includes the SQL code and relevant files, along with a PDF artic
 - `graph_1.sql`: The PostgreSQL script implementing the recursive CTE solution for Distance Vector Routing for a sample graph with 5 nodes.
 - `graph_2.sql`: The PostgreSQL script implementing the recursive CTE solution for Distance Vector Routing for a sample graph with 4 nodes.
 - 'Distance_Vector_Routing_with_SQL.pdf': University Presentation on Distance Vector Routing with SQL.
--  'Ausarbeitung_SQL.pdf': Article on the topic of Distance-Vector Routing with SQL.
+-  'seminar_paper_distance_vector_routing_with_sql.pdf': Article on the topic of Distance-Vector Routing with SQL.
 
 ## Usage
 
