@@ -2,7 +2,7 @@
 
 Author: Alexej Onken   
 
-University: University of Tuebingen    
+Institution: Enrolled student at the University of Tuebingen  
 
 Program: Computer Science Master's degree    
 
