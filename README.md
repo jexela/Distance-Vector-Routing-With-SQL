@@ -22,7 +22,7 @@ This repository contains the SQL code and related files for my article on Distan
 
 To use the SQL script, follow these steps:
 
-1. Visit the PostgreSQL downloads page and select the appropriate version for your operating system.
+1. Visit the PostgreSQL downloads page https://www.postgresql.org/download/ and select the appropriate version for your operating system.
 2. Import the `graph_1.sql` or `graph_2.sql` file into your PostgreSQL database.
 3. Run the scripts in your PostgreSQL environment.
 
