@@ -185,8 +185,8 @@ AS $$
   SELECT min(elements) FROM unnest($1) elements
 $$;
 
-DROP TABLE IF EXISTS routers_2;
-CREATE TABLE routers_2 ("from", "to", "minimal_cost", "track") as
+DROP TABLE IF EXISTS routers_1;
+CREATE TABLE routers_1 ("from", "to", "minimal_cost", "track") as
 
 
 WITH RECURSIVE exploration as (
@@ -257,7 +257,7 @@ WHERE g.from    =    e.from     AND
 ORDER BY g.from, g.to
 ;
 
-TABLE routers_2;
+TABLE routers_1;
 
 
 
