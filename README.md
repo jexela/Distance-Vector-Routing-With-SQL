@@ -8,7 +8,6 @@ Program: Computer Science Master's degree
 
 Course: SQL is a Programming Language
 
-
 This repository includes the SQL code and relevant files, along with a PDF article and presentation on Distance-Vector Routing with SQL.
 
 ## Problem overview
